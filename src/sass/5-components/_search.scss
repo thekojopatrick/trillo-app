@@ -7,6 +7,12 @@
     align-items: center;
     justify-content: center;
 
+    @media only screen and (max-width: $bp-smallest) {
+        order: 1;
+        flex: 0 0 100%;
+         background-color: $color-grey-light-2;
+    }
+
     &__input {
         font-family: inherit;
         font-size: inherit;
@@ -25,7 +31,7 @@
             background-color: $color-grey-light-3;
         }
 
-        &::-webkit-input-placeholder{
+        &::-webkit-input-placeholder {
             font-weight: 300;
             color: $color-grey-light-4;
         }
@@ -34,8 +40,6 @@
     &__input:focus + &__button {
         background-color: $color-grey-light-3;
     }
-
-    
 
     &__button {
         height: 2rem;

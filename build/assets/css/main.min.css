@@ -320,6 +320,13 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+@media only screen and (max-width: 31.25em) {
+	.header {
+		flex-wrap: wrap;
+		height: 11rem;
+		align-content: space-around;
+	}
+}
 
 .user-nav {
 	align-self: stretch;
@@ -442,11 +449,26 @@ body {
 		padding: 2rem;
 	}
 }
+@media only screen and (max-width: 37.5em) {
+	.side-nav__link:link,
+	.side-nav__link:visited {
+		flex-direction: column;
+		padding: 1.5rem 0;
+	}
+}
 .side-nav__icon {
 	width: 1.75rem;
 	height: 1.75rem;
 	margin-right: 2rem;
 	fill: currentColor;
+}
+@media only screen and (max-width: 37.5em) {
+	.side-nav__icon {
+		margin-right: 0;
+		margin-bottom: 0.7rem;
+		width: 1.5rem;
+		height: 1.5rem;
+	}
 }
 
 .legal {
@@ -568,6 +590,13 @@ button {
 	align-items: center;
 	justify-content: center;
 }
+@media only screen and (max-width: 31.25em) {
+	.search {
+		order: 1;
+		flex: 0 0 100%;
+		background-color: #f4f2f2;
+	}
+}
 .search__input {
 	font-family: inherit;
 	font-size: inherit;
@@ -652,6 +681,12 @@ button {
 	letter-spacing: 1px;
 	padding: 1.5rem 3rem;
 }
+@media only screen and (max-width: 37.5em) {
+	.overview__heading {
+		font-size: 1.8rem;
+		padding: 1.25rem 2rem;
+	}
+}
 .overview__stars {
 	margin-right: auto;
 	display: flex;
@@ -681,13 +716,28 @@ button {
 	align-items: center;
 	justify-content: center;
 }
+@media only screen and (max-width: 37.5em) {
+	.overview__rating {
+		padding: 0 1.5rem;
+	}
+}
 .overview__rating-average {
 	font-size: 2.25rem;
 	font-weight: 300;
 	margin-bottom: -3px;
 }
+@media only screen and (max-width: 37.5em) {
+	.overview__rating-average {
+		font-size: 1.8rem;
+	}
+}
 .overview__rating-count {
 	font-size: 0.8rem;
+}
+@media only screen and (max-width: 37.5em) {
+	.overview__rating-count {
+		font-size: 0.5rem;
+	}
 }
 
 .detail {
@@ -701,7 +751,7 @@ button {
 		padding: 3rem;
 	}
 }
-@media only screen and (max-width: 37.4em) {
+@media only screen and (max-width: 37.5em) {
 	.detail {
 		flex-direction: column;
 	}
@@ -720,7 +770,7 @@ button {
 		margin-right: 3rem;
 	}
 }
-@media only screen and (max-width: 37.4em) {
+@media only screen and (max-width: 37.5em) {
 	.description {
 		margin-right: 0;
 		margin-bottom: 3rem;
@@ -848,6 +898,11 @@ button {
 @media only screen and (max-width: 56.25em) {
 	.cta {
 		padding: 2rem 0;
+	}
+}
+@media only screen and (max-width: 31.25em) {
+	.cta {
+		padding: 2rem;
 	}
 }
 .cta__book-now {
