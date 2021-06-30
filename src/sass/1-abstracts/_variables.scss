@@ -1,0 +1,52 @@
+//
+// Some Useful color Vars via http://clrs.cc/
+//
+
+// Cool
+$aqua: #7fdbff;
+$blue: #0074d9;
+$navy: #001f3f;
+$olive: #3d9970;
+$lime: #01ff70;
+
+// Warm
+$yellow: #ffdc00;
+$orange: #ff851b;
+$red: #ff4136;
+$fuchsia: #f012be;
+$maroon: #85144b;
+
+// Gray Scale
+$white: #fff;
+$silver: #ddd;
+$gray: #aaa;
+$black: #111;
+
+//
+// Project Variables
+//
+
+//Colors
+$color-primary: #eb2f64;
+$color-primary-light: #ff3366;
+$color-primary-dark: #ba265d;
+$color-grey-light-1: #faf9f9;
+$color-grey-light-2: #f4f2f2;
+$color-grey-light-3: #f0eeee;
+$color-grey-light-4: #ccc;
+$color-grey-dark-1: #333;
+$color-grey-dark-2: #777;
+$color-grey-dark-3: #999;
+
+//Shadow
+$shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+$shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+
+//Line
+$line: 1px solid $color-grey-light-2;
+
+//Media Queries
+$bp-largest: 75em; //1200px
+$bp-large: 68.75em; //1100px
+$bp-medium: 56.25em; //900px
+$bp-small: 37.4em; //600px

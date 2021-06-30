@@ -1,0 +1,25 @@
+{
+    "name": "iamkojopatrick-starter-project",
+    "version": "1.0.0",
+    "description": "Starter Project",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Kojo Patrick",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.26.3",
+        "del": "^3.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.4",
+        "gulp-uglify": "^3.0.1"
+    }
+}

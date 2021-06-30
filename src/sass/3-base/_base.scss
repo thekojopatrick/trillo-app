@@ -1,0 +1,55 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; //1rem = 10px
+
+	@media only screen and(max-width:$bp-large) {
+		font-size: 50%;
+	}
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+	line-height: 1.6;
+	color: $color-grey-dark-2;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+
+	min-height: 100vh;
+}
+
+.container {
+	width: 100%;
+	max-width: 120rem;
+	margin: 8rem auto;
+	background-color: $color-grey-light-2;
+	box-shadow: $shadow-dark;
+
+	min-height: 50rem;
+
+	@media only screen and (max-width: $bp-largest) {
+		margin: 0;
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+section {
+	display: -webkit-box;
+}
+
+figure {
+	margin: 0;
+}
